@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aryan Taware — Computer Science Engineering student, Python developer and Machine Learning enthusiast. Portfolio for internships and entry-level software development roles." />
+  <meta name="theme-color" content="#1e0a3c" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <title>Aryan Taware — Computer Science Engineering Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-inner" aria-label="Primary navigation">
+      <a href="#home" class="brand" aria-label="Aryan Taware — home">
+        <span class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </span>
+        <span class="brand-text">Aryan<span class="brand-accent">.dev</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link is-active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="Aryan_Taware_Resume.pdf" download class="btn btn-light btn-sm">Resume</a></li>
+      </ul>
+      <button type="button" class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+        <svg id="menuIconOpen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        <svg id="menuIconClose" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" hidden><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section id="home" class="hero" aria-label="Introduction">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-1" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-2" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-3" aria-hidden="true"></div>
+      <svg class="geo geo-tr" aria-hidden="true" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice">
+        <g stroke="currentColor" stroke-width="1.4">
+          <line x1="400" y1="0" x2="-140" y2="40"/><line x1="400" y1="0" x2="-135" y2="65"/><line x1="400" y1="0" x2="-128" y2="90"/><line x1="400" y1="0" x2="-118" y2="115"/><line x1="400" y1="0" x2="-106" y2="139"/><line x1="400" y1="0" x2="-92" y2="162"/><line x1="400" y1="0" x2="-76" y2="184"/><line x1="400" y1="0" x2="-58" y2="205"/><line x1="400" y1="0" x2="-39" y2="224"/><line x1="400" y1="0" x2="-19" y2="242"/><line x1="400" y1="0" x2="2" y2="258"/><line x1="400" y1="0" x2="24" y2="272"/><line x1="400" y1="0" x2="47" y2="285"/><line x1="400" y1="0" x2="70" y2="296"/><line x1="400" y1="0" x2="94" y2="305"/><line x1="400" y1="0" x2="118" y2="312"/><line x1="400" y1="0" x2="142" y2="318"/><line x1="400" y1="0" x2="166" y2="322"/>
+        </g>
+      </svg>
+
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="reveal"><span class="pill"><span class="dot" aria-hidden="true"></span>Open to internships &amp; entry-level roles</span></p>
+          <div class="reveal" style="--d:100ms">
+            <p class="mono-accent">// Hello World, I am</p>
+            <h1 class="hero-title">Hi, I&rsquo;m <span class="gradient-text">Aryan Taware</span></h1>
+            <p class="hero-role">Computer Science Engineering Student</p>
+            <p class="hero-tags"><span>Python Developer</span><span class="sep" aria-hidden="true">|</span><span>Machine Learning Enthusiast</span><span class="sep" aria-hidden="true">|</span><span>Data Structures &amp; Algorithms</span></p>
+          </div>
+          <p class="hero-intro reveal" style="--d:200ms">Motivated Computer Science undergraduate passionate about building real-world applications, solving programming problems, and continuously learning new technologies.</p>
+          <div class="hero-cta reveal" style="--d:300ms">
+            <a href="#projects" class="btn btn-primary">View My Projects
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <a href="Aryan_Taware_Resume.pdf" download class="btn btn-ghost">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download Resume</a>
+          </div>
+          <div class="socials reveal" style="--d:400ms">
+            <a href="https://www.linkedin.com/in/aryan-taware-44045b334" target="_blank" rel="noopener noreferrer" aria-label="Aryan Taware on LinkedIn" class="icon-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.55V9h3.57v11.45Z"/></svg>
+            </a>
+            <a href="mailto:aryantaware03@gmail.com" aria-label="Email Aryan Taware" class="icon-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+            </a>
+            <span class="icon-btn is-disabled" role="img" aria-label="GitHub link coming soon" title="GitHub link coming soon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12 0 1.53-.01 2.76-.01 3.14 0 .3.2.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+            </span>
+            <span class="location"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>Baramati, India</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="photo-wrap reveal" style="--d:200ms">
+            <div class="photo-glow" aria-hidden="true"></div>
+            <img src="profile.jpg" alt="Portrait of Aryan Taware" class="photo" width="512" height="512" />
+            <div class="photo-badge" aria-hidden="true">&gt;_</div>
+          </div>
+          <div class="terminal reveal" style="--d:350ms">
+            <div class="terminal-bar"><span></span><span></span><span></span><em>aryan@dev: ~/portfolio</em></div>
+            <pre><code><span class="tk-k">const</span> <span class="tk-w">developer</span> <span class="tk-d">=</span> <span class="tk-d">{</span>
+  <span class="tk-v">name:</span> <span class="tk-s">"Aryan Taware"</span><span class="tk-d">,</span>
+  <span class="tk-v">focus:</span> <span class="tk-d">[</span><span class="tk-s">"Python"</span><span class="tk-d">,</span> <span class="tk-s">"ML"</span><span class="tk-d">,</span> <span class="tk-s">"DSA"</span><span class="tk-d">]</span><span class="tk-d">,</span>
+  <span class="tk-v">openToWork:</span> <span class="tk-b">true</span>
+<span class="tk-d">}</span><span class="caret">▍</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section section-white" aria-label="About me">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span aria-hidden="true"></span>About</p>
+          <h2>About Me</h2>
+        </div>
+        <div class="about-grid">
+          <article class="about-card reveal">
+            <p class="mono-accent">// profile</p>
+            <p class="about-text">I am a Computer Science Engineering undergraduate currently pursuing my Third Year B.Tech at Vidya Pratishthan Kamalnayan Bajaj Institute of Engineering, Baramati. I have a strong interest in software development, machine learning, artificial intelligence, and data structures &amp; algorithms. I enjoy solving programming problems, learning new technologies, and building practical projects that strengthen my technical skills.</p>
+            <dl class="about-facts">
+              <div><dt>College</dt><dd>Vidya Pratishthan Kamalnayan Bajaj Institute of Engineering, Baramati</dd></div>
+              <div><dt>Program</dt><dd>Third Year B.Tech in Computer Science Engineering</dd></div>
+              <div><dt>Location</dt><dd>Baramati, Pune, Maharashtra, India</dd></div>
+            </dl>
+          </article>
+          <ul class="highlight-grid" aria-label="Highlights">
+            <li class="reveal" style="--d:0ms"><div class="highlight-card"><span class="highlight-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg></span><p><strong>Third Year B.Tech CSE</strong><small>Vidya Pratishthan Kamalnayan Bajaj Institute of Engineering</small></p></div></li>
+            <li class="reveal" style="--d:90ms"><div class="highlight-card"><span class="highlight-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></span><p><strong>Software Development</strong><small>Python · Web</small></p></div></li>
+            <li class="reveal" style="--d:180ms"><div class="highlight-card"><span class="highlight-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/></svg></span><p><strong>Machine Learning</strong><small>Models &amp; Data</small></p></div></li>
+            <li class="reveal" style="--d:270ms"><div class="highlight-card"><span class="highlight-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 1 7 7c0 2.4-1.2 4.2-2.6 5.7-.9 1-1.4 2-1.4 3.3H9c0-1.3-.5-2.3-1.4-3.3C6.2 13.2 5 11.4 5 9a7 7 0 0 1 7-7z"/><path d="M9 21h6"/></svg></span><p><strong>Data Structures &amp; Algorithms</strong><small>Problem Solving</small></p></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section section-tint" aria-label="Skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span aria-hidden="true"></span>Tech Stack</p>
+          <h2>Skills &amp; Technologies</h2>
+          <p class="section-sub">Technologies I use for coursework, projects, and practice. No inflated proficiency bars — just the tools I genuinely work with.</p>
+        </div>
+        <ul class="skills-grid" aria-label="Skill categories">
+          <li class="reveal" style="--d:0ms"><article class="skill-card"><h3>Programming</h3><ul><li>Python</li><li>C++</li></ul></article></li>
+          <li class="reveal" style="--d:100ms"><article class="skill-card"><h3>Web Development</h3><ul><li>HTML</li><li>CSS</li><li>JavaScript (Basics)</li></ul></article></li>
+          <li class="reveal" style="--d:200ms"><article class="skill-card"><h3>Data &amp; Machine Learning</h3><ul><li>Machine Learning</li><li>NumPy</li><li>Pandas</li><li>Scikit-learn</li><li>MySQL</li></ul></article></li>
+          <li class="reveal" style="--d:0ms"><article class="skill-card"><h3>Computer Science</h3><ul><li>Data Structures &amp; Algorithms</li><li>Problem Solving</li></ul></article></li>
+          <li class="reveal" style="--d:100ms"><article class="skill-card"><h3>Tools</h3><ul><li>Git</li><li>GitHub</li><li>VS Code</li></ul></article></li>
+        </ul>
+        <p class="skills-note reveal">Currently deepening my skills in <strong>Python, Machine Learning, and DSA</strong> through coursework and hands-on practice.</p>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section section-dark" aria-label="Projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow eyebrow-dark"><span aria-hidden="true"></span>Selected Work</p>
+          <h2 class="on-dark">Projects</h2>
+          <p class="section-sub on-dark-sub">Practical projects built with Python, machine learning libraries, and core computer science fundamentals.</p>
+        </div>
+        <ul class="projects-grid" aria-label="Project list">
+          <li class="reveal" style="--d:0ms">
+            <article class="project-card">
+              <span class="project-num" aria-hidden="true">01</span>
+              <h3>Student Management System</h3>
+              <p>Developed using Python for efficient student record management.</p>
+              <ul class="tech-list" aria-label="Technologies used in Student Management System"><li>Python</li></ul>
+              <div class="project-links"><span class="btn-mini" title="GitHub link coming soon">GitHub</span><span class="btn-mini is-dashed" title="Live demo link coming soon">Live Demo</span></div>
+            </article>
+          </li>
+          <li class="reveal" style="--d:110ms">
+            <article class="project-card">
+              <span class="project-num" aria-hidden="true">02</span>
+              <h3>Machine Learning Projects</h3>
+              <p>Built classification and regression models using Scikit-learn, Pandas, and NumPy.</p>
+              <ul class="tech-list" aria-label="Technologies used in Machine Learning Projects"><li>Python</li><li>Scikit-learn</li><li>Pandas</li><li>NumPy</li></ul>
+              <div class="project-links"><span class="btn-mini" title="GitHub link coming soon">GitHub</span><span class="btn-mini is-dashed" title="Live demo link coming soon">Live Demo</span></div>
+            </article>
+          </li>
+          <li class="reveal" style="--d:220ms">
+            <article class="project-card">
+              <span class="project-num" aria-hidden="true">03</span>
+              <h3>DSA Practice</h3>
+              <p>Solved coding problems focusing on arrays, strings, linked lists, trees, recursion, and dynamic programming.</p>
+              <ul class="tech-list" aria-label="Technologies used in DSA Practice"><li>Python</li><li>C++</li><li>Data Structures &amp; Algorithms</li></ul>
+              <div class="project-links"><span class="btn-mini" title="GitHub link coming soon">GitHub</span><span class="btn-mini is-dashed" title="Practice log coming soon">Practice</span></div>
+            </article>
+          </li>
+        </ul>
+        <p class="projects-foot reveal">More projects on the way — currently building and learning.</p>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section id="education" class="section section-white" aria-label="Education">
+      <div class="container narrow">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span aria-hidden="true"></span>Background</p>
+          <h2>Education</h2>
+        </div>
+        <ol class="timeline" aria-label="Education timeline">
+          <li class="reveal" style="--d:0ms">
+            <article class="timeline-card is-current">
+              <h3>B.Tech Computer Science Engineering</h3>
+              <p class="school">Vidya Pratishthan Kamalnayan Bajaj Institute of Engineering, Baramati</p>
+              <p class="tags"><span class="tag-period">2024 – Present</span><span class="tag-detail">Currently in Third Year</span></p>
+            </article>
+          </li>
+          <li class="reveal" style="--d:110ms">
+            <article class="timeline-card">
+              <h3>Higher Secondary Certificate (HSC)</h3>
+              <p class="school">Baramati</p>
+              <p class="tags"><span class="tag-period">2024</span><span class="tag-detail">84.50%</span></p>
+            </article>
+          </li>
+          <li class="reveal" style="--d:220ms">
+            <article class="timeline-card">
+              <h3>Secondary School Certificate (SSC)</h3>
+              <p class="school">Baramati</p>
+              <p class="tags"><span class="tag-period">2022</span><span class="tag-detail">92.00%</span></p>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section section-tint" aria-label="Contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span aria-hidden="true"></span>Get In Touch</p>
+          <h2>Let&rsquo;s Build Something Together</h2>
+          <p class="section-sub">I am currently looking for internship and entry-level opportunities where I can apply my technical knowledge, learn from experienced professionals, and contribute to real-world projects.</p>
+        </div>
+        <div class="contact-grid">
+          <aside class="contact-info reveal">
+            <h3>Contact Information</h3>
+            <p class="muted">Feel free to reach out for internships, entry-level roles, or collaboration.</p>
+            <ul>
+              <li><a href="tel:+919803033303"><strong>Phone</strong><span>+91 9803033303</span></a></li>
+              <li><a href="mailto:aryantaware03@gmail.com"><strong>Email</strong><span>aryantaware03@gmail.com</span></a></li>
+              <li class="static"><strong>Location</strong><span>Baramati, Pune, Maharashtra, India</span></li>
+              <li><a href="https://www.linkedin.com/in/aryan-taware-44045b334" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong><span>linkedin.com/in/aryan-taware</span></a></li>
+            </ul>
+          </aside>
+          <div class="contact-form-card reveal" style="--d:120ms">
+            <h3>Send a Message</h3>
+            <p class="muted">This form is UI-only for now — connect it to Formspree, EmailJS, or your backend to receive messages.</p>
+            <form id="contactForm" aria-label="Contact form">
+              <label for="contact-name">Name</label>
+              <input id="contact-name" name="name" type="text" required autocomplete="name" placeholder="Your name" />
+              <label for="contact-email">Email</label>
+              <input id="contact-email" name="email" type="email" required autocomplete="email" placeholder="you@example.com" />
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" rows="5" required placeholder="Hi Aryan, I'd like to talk about an internship opportunity…"></textarea>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+              <p class="form-success" id="formSuccess" role="status" hidden>Thanks! Your message is ready — connect an email service to deliver it.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" aria-label="Footer">
+    <p class="foot-name">Aryan Taware</p>
+    <p class="foot-role">Computer Science Engineering Student</p>
+    <div class="socials socials-center">
+      <a href="https://www.linkedin.com/in/aryan-taware-44045b334" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="icon-btn icon-btn-sm"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.55V9h3.57v11.45Z"/></svg></a>
+      <span class="icon-btn icon-btn-sm is-disabled" role="img" aria-label="GitHub — link coming soon" title="GitHub link coming soon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12 0 1.53-.01 2.76-.01 3.14 0 .3.2.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg></span>
+      <a href="mailto:aryantaware03@gmail.com" aria-label="Email" class="icon-btn icon-btn-sm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></a>
+    </div>
+    <p class="foot-copy">© 2026 Aryan Taware. All rights reserved.</p>
+    <p><a href="#home" class="to-top">Back to top</a></p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
